@@ -1,0 +1,11 @@
+# Test output
+tests/verification.json
+
+# Package manager
+node_modules/
+.pnpm-store/
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
+*.log
