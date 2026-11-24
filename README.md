@@ -71,3 +71,7 @@ The suite compares the copied preset with the installed Standard preset and test
 - Some original static prompt sections are registration-scoped rather than step-scoped and may remain as short guidance even while their tool schema is deferred. Tool schemas provide the main savings.
 - The automated test uses a scoped-registry fake to validate state and lifecycle mechanics. Real provider token and end-to-end model behavior require fresh-session A/B tests.
 - Roll back by selecting the original **Standard** preset. Disable or remove `@local/dsh-dynamic-tools` to remove the experimental preset entirely. No `app.asar` files or original tool packages are edited.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
