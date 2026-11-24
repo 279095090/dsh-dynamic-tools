@@ -1,0 +1,35 @@
+{
+  "name": "@local/dsh-dynamic-tools",
+  "version": "0.1.2",
+  "private": true,
+  "description": "Independent experimental preset with core tools and durable, on-demand capability groups.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/279095090/dsh-dynamic-tools.git"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./icon": "./icon.svg",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "runtime.js",
+    "groups.js",
+    "state.js",
+    "activation-tool.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "locale",
+    "README.md"
+  ],
+  "engines": {
+    "dsh": "0.2.2-rc.5"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "cordis.patch.yml"
+    }
+  }
+}

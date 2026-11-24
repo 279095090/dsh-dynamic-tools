@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" aria-labelledby="title desc">
+  <title id="title">Dynamic tool groups</title>
+  <desc id="desc">Three stacked tool layers with an open path into the last layer.</desc>
+  <rect x="5" y="6" width="26" height="5" rx="2.5" fill="#4D6BFE"/>
+  <rect x="5" y="15" width="19" height="5" rx="2.5" fill="#7489F7"/>
+  <path d="M5 27a2.5 2.5 0 0 1 2.5-2.5H15v6H7.5A2.5 2.5 0 0 1 5 27Z" fill="#9DAAF0"/>
+  <path d="M20 27.5h10m-4-4 4 4-4 4" stroke="#4D6BFE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
