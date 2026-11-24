@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "private": true,
   "description": "Independent experimental preset with core tools and durable, on-demand capability groups.",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/279095090/dsh-dynamic-tools.git"
@@ -22,7 +23,8 @@
     "cordis.patch.yml",
     "icon.svg",
     "locale",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "dsh": "0.2.2-rc.5"
